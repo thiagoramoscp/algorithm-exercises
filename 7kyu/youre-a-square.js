@@ -22,7 +22,16 @@ Examples
 
 
 */
+/* New answer */
 
+var isSquare = function(n){
+  if (typeof n == "number" && n >= 0 && Number.isInteger(Math.sqrt(n)) ) {
+    return true;
+  }
+  return false;
+}
+
+/* Old answer */
 var isSquare = function(n){
   if (typeof n == "number" && n >= 0) {
     for (let i = 0; i <= n; i++) {
