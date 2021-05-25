@@ -23,3 +23,5 @@ function alphabetPosition(text) {
   }
   return str.join(" ");
 }
+
+//era melhor ter usado .match(/[a-z]/g) ao invés do for loop
