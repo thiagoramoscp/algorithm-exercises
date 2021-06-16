@@ -1,1 +1,1 @@
-# javascript-algorithm-exercises
+# algorithm-exercises
