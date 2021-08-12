@@ -22,3 +22,6 @@ function removeDuplicateWords (s) {
   }
   return onlyUnique.join(" ");
 }
+
+// better: const removeDuplicateWords = s => [...new Set(s.split(' '))].join(' ')
+// set guarda apenas valores únicos*
