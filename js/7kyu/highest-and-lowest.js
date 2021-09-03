@@ -16,5 +16,5 @@ Notes:
 
 function highAndLow(numbers){
   let sortedArr = numbers.split(" ").sort((a, b) => a - b);
-  return `${} ${sortedArr[0]}`
+  return `${sortedArr[sortedArr.length - 1]} ${sortedArr[0]}`
 }
