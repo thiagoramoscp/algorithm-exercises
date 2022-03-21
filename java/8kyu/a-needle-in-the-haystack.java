@@ -1,0 +1,19 @@
+/*
+Can you find the needle in the haystack?
+
+Write a function findNeedle() that takes an array full of junk but containing one "needle"
+
+After your function finds the needle it should return a message (as a string) that says:
+
+"found the needle at position " plus the index it found the needle, so:
+
+findNeedle(new Object[] {"hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"})
+*/
+
+import org.apache.commons.lang3.ArrayUtils;
+
+public class Kata {
+  public static String findNeedle(Object[] haystack) {
+    return "found the needle at position " + ArrayUtils.indexOf(haystack, "needle");
+  }
+}
