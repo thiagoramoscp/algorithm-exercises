@@ -15,3 +15,4 @@ class Kata {
   }
 }
 //String str = String.valueOf(num);
+// ""+num
